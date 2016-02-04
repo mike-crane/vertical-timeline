@@ -7,3 +7,14 @@ body{
   background-color: #47a3da;
   color: white;
 }
+
+.fa fa-mobile {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  margin; 1em;
+}
+
+ul{
+    list-style-type: none;
+}
