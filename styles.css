@@ -3,9 +3,17 @@ body{
   color: #47a3da;
 }
 
+p {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
 .text {
   background-color: #47a3da;
   color: white;
+  
 }
 
 .fa fa-mobile {
@@ -17,4 +25,8 @@ body{
 
 ul{
     list-style-type: none;
+}
+
+* {
+  border: 1px solid red !important;
 }
