@@ -118,3 +118,41 @@ body {
     }
   }
 }
+
+
+@media screen and (max-width: 900px) {
+  .folds ul li div {
+    width: 250px;
+
+    img {
+      margin-left: 10px;
+    }
+  }
+  .folds ul li:nth-child(even) div {
+    left: -289px; 
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .folds ul li {
+    margin-left: 20px;
+  }
+   
+  .folds ul li div {
+    width: calc(100vw - 91px);
+
+    img {
+      margin-left: calc(50vw - 150px);
+    }
+  }
+   
+  .folds ul li:nth-child(even) div {
+    left: 45px;
+  }
+   
+  .folds ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 25px 16px 25px 0;
+    border-color: transparent #FFD166 transparent transparent;
+  }
+}
